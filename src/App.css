@@ -1,38 +1,115 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Modak&family=Roboto&display=swap");
+
+.container {
+  display: flex;  
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 100vh;
+  
+  background: -webkit-linear-gradient(
+      135deg,
+      hsla(85.29, 52.84%, 55.1%, 1) 15%,
+      hsla(85.29, 52.84%, 55.1%, 0) 80%
+    ),
+    -webkit-linear-gradient(205deg, hsla(0, 66.36%, 58.04%, 1) 100%, hsla(
+            0,
+            66.36%,
+            58.04%,
+            0
+          )
+          70%);
+  background: linear-gradient(
+      315deg,
+      hsla(85.29, 52.84%, 55.1%, 1) 15%,
+      hsla(85.29, 52.84%, 55.1%, 0) 80%
+    ),
+    linear-gradient(
+      245deg,
+      hsla(0, 66.36%, 58.04%, 1) 100%,
+      hsla(0, 66.36%, 58.04%, 0) 70%
+    );
+}
+
+.container h2,
+.title {
+  justify-content: center;
+  margin-top: 40px;
+  font-family: "Modak", cursive;
+  color: #494a4e;
+}
+
+.campos, .inputs {
+  display: flex;
+  justify-content: center;
+}
+.campos input {
+  
+  border: none;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+}
+
+.botao {
+  border: none;
+  box-shadow: 1px 1px rgba(94, 94, 94, 0.603);
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: #96c950;
+  color: #a42c10;
+  font-family: "Roboto", sans-serif;
+}
+
+.recipe {
+  
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  font-family: "Roboto";
+  color: #242424;
+  align-items: center;
+  
+  
+
+  
+}
+
+.title {
+  font-family: "Modak", cursive;
+  font-size: 3rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 860px;
+  width: 550px;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+  background-color: rgba(233, 227, 227, 0.096) !important ;
+ 
+  
 }
 
-.App-link {
-  color: #61dafb;
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+/* 
+verde  #96c950
+bege #d3caa1
+vermelho claro  #db4d4d
+vermelho #a42c10
+cinza #606166
+
+
+font-family: 'Modak', cursive;
+font-family: 'Roboto', sans-serif;
+
+*/
