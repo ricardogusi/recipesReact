@@ -11,7 +11,7 @@ Criação de uma aplicação que puxa receitas de uma API
 * React
 * CSS
 
-Para testar clique no link: https://ricardogusi.github.io/recipesReact/
+Para testar clique no link e digite o nome de algum ingrediente(em inglês).: https://ricardogusi.github.io/recipesReact/
 
 
 <a href="https://imgur.com/F2dGU7H"><img src="https://i.imgur.com/F2dGU7H.png" title="source: imgur.com" /></a>
